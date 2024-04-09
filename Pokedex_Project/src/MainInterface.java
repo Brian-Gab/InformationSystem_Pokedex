@@ -25,11 +25,11 @@ public class MainInterface{
 
         searchButtonPanel = new JPanel();
         searchButtonPanel.setBackground(Color.WHITE);
-        searchButtonPanel.setBounds(691, 0, 100, 40);
+        searchButtonPanel.setBounds(691, 0, 93, 40);
         searchButtonPanel.setLayout(new BorderLayout());
 
         searchButton = new JButton();
-        searchButton.setBounds(0, 0, 100, 40);
+        searchButton.setBounds(0, 0, 93, 40);
         searchButton.addActionListener(e -> newPokemon());
         searchButton.setText("Search");
         searchButton.setFocusable(false);
