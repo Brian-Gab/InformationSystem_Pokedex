@@ -5,7 +5,7 @@ import javax.swing.JPanel;
 
 public class newFrame extends JFrame{
 
-    newFrame(int size, JPanel pMonDisplay, JPanel searchButton){
+    newFrame(int size, JPanel pMonDisplay, JPanel searchButton, JPanel searchBar){
 
         this.setTitle("Group 9's Pokedex");
         this.setSize(size, size);
@@ -16,6 +16,7 @@ public class newFrame extends JFrame{
         this.setLayout(null);
         this.add(pMonDisplay);
         this.add(searchButton);
+        this.add(searchBar);
 
         ImageIcon titleImage = new ImageIcon("Images/titleIcon.png");
         this.setIconImage(titleImage.getImage());
