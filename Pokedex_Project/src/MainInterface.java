@@ -75,5 +75,9 @@ public class MainInterface{
 
         System.out.println(pokemonIndex);
         pokemonIndex = pokemonIndex + 1;
+
+        if(pokemonIndex == 26){
+            pokemonIndex = 0;
+        }
     }
 }
